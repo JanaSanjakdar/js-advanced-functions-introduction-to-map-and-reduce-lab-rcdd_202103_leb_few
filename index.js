@@ -1,15 +1,34 @@
 // Your code here
+let sourceArray = [];
+
 function mapToNegativize(sourceArray){
-    return sourceArray.map(x => x * -1);
-}
+    let newArray = []
+    for (let i = 0; i < sourceArray.length; i++ ) {
+        newArray.push(-1 * sourceArray[i])
+      }
+      return newArray
+};
 function mapToNoChange(sourceArray){
-  return sourceArray.map(x => x)
-}
+    let newArray = []
+    for (let i = 0; i < sourceArray.length; i++ ) {
+        newArray.push(sourceArray[i])
+      }
+      return newArray
 
+};
 function mapToDouble(sourceArray){
-    return sourceArray.map(x => x*2);
-}
+    let newArray = []
+    for (let i = 0; i < sourceArray.length; i++ ) {
+        newArray.push(2 * sourceArray[i])
+      }
+      return newArray
 
+};
 function mapToSquare(sourceArray){
-    return sourceArray.map(x => x*x);
-}
+    let newArray = []
+    for (let i = 0; i < sourceArray.length; i++ ) {
+        newArray.push(sourceArray[i] * sourceArray[i])
+      }
+      return newArray
+
+};
