@@ -22,7 +22,6 @@ function mapToDouble(sourceArray){
         newArray.push(2 * sourceArray[i])
       }
       return newArray
-
 };
 
 function mapToSquare(sourceArray){
