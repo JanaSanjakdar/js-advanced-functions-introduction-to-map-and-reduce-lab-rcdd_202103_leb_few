@@ -33,7 +33,7 @@ function mapToSquare(sourceArray){
       return newArrays
 };
 
-function reduceToTotal(sourceArray, startingPoint = 0){
+/*function reduceToTotal(sourceArray, startingPoint = 0){
     const reducer = function(accumulator, currentValue){ return accumulator + currentValue }
 
     return sourceArray.reduce(reducer, startingPoint)
@@ -60,4 +60,4 @@ function reduceToAnyTrue(sourceArray){
         }
     }
     return sourceArray.reduce(reducer, false)
-}
+}*/
