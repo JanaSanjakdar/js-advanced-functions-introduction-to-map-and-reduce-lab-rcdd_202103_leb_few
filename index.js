@@ -34,10 +34,11 @@ function mapToSquare(sourceArray){
 }
 
 function reduceToTotal(sourceArray, startingPoint=0) {
+let total = startingPoint;
    for (let i = 0; i < sourceArray.length; i++){
-     startingPoint += sourceArray[i];
+     total += sourceArray[i];
    }
-   return startingPoint;
+   return total;
  }
 
 
