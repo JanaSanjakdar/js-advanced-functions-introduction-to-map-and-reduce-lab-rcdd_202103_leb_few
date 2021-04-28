@@ -32,6 +32,12 @@ function mapToSquare(sourceArray){
       return newArrays
 };
 
+function reduceToTotal(sourceArray, startingPoint=0) {
+   for (let i = 0; i < sourceArray.length; i++){
+     startingPoint = startingPoint + sourceArray[i];
+   }
+   return startingPoint;
+ }
 /*function reduceToTotal(sourceArray, startingPoint = 0){
     const reducer = function(accumulator, currentValue){ return accumulator + currentValue }
 
