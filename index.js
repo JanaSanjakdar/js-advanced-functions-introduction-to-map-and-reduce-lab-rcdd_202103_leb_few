@@ -38,13 +38,9 @@ function reduceToTotal(sourceArray, startingPoint=0) {
    }
    return startingPoint;
  }
-/*function reduceToTotal(sourceArray, startingPoint = 0){
-    const reducer = function(accumulator, currentValue){ return accumulator + currentValue }
 
-    return sourceArray.reduce(reducer, startingPoint)
-}
 
-function reduceToAllTrue(sourceArray){
+/*function reduceToAllTrue(sourceArray){
 
     const reducer = function(accumulator, currentValue){
         if(!!accumulator == true && !!currentValue == true){
