@@ -53,3 +53,16 @@ let total = startingPoint;
  	}
  	return flag
  }
+
+
+ function reduceToAnyTrue(sourceArray) {
+ 	let flag = false
+ 	for (let i = 0; i < sourceArray.length; i++) {
+ 		if (!sourceArray[i]) {
+ 			flag = false
+ 		} else {
+ 			return true
+ 		}
+ 	}
+ 	return flag
+ }
