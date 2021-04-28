@@ -51,5 +51,7 @@ let total = startingPoint;
  			return false
  		}
  	}
- 	return flag
+ 	//return flag
  }
+
+ 
