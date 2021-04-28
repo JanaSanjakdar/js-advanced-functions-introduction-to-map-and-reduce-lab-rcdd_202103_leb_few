@@ -30,7 +30,7 @@ function mapToSquare(sourceArray){
     for (let i = 0; i < sourceArray.length; i++ ) {
         newArray.push(sourceArray[i] **2)
       }
-      return newArrays
+      return newArray
 }
 
 function reduceToTotal(sourceArray, startingPoint=0) {
