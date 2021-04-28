@@ -7,22 +7,23 @@ function mapToNegativize(sourceArray){
         newArray.push(-1 * sourceArray[i])
       }
       return newArray
-};
-s
+}
+
 function mapToNoChange(sourceArray){
     let newArray = []
     for (let i = 0; i < sourceArray.length; i++ ) {
         newArray.push(sourceArray[i])
       }
       return newArray
-};
+}
+
 function mapToDouble(sourceArray){
     let newArray = []
     for (let i = 0; i < sourceArray.length; i++ ) {
         newArray.push(2 * sourceArray[i])
       }
       return newArray
-};
+}
 
 function mapToSquare(sourceArray){
     let newArray = []
@@ -30,7 +31,7 @@ function mapToSquare(sourceArray){
         newArray.push(sourceArray[i] * sourceArray[i])
       }
       return newArrays
-};
+}
 
 function reduceToTotal(sourceArray, startingPoint=0) {
    for (let i = 0; i < sourceArray.length; i++){
